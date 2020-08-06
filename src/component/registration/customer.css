@@ -1,0 +1,62 @@
+#customerRegister .view {
+    background-image: url("../../image/customer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+  }
+  
+  #customerRegister .gradient {
+    background: -webkit-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(72, 15, 144, 0.4) 100%
+    ); 
+    background: -webkit-gradient(
+      linear,
+      45deg,
+      from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)
+    );
+    background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(72, 15, 144, 0.4) 100%
+    );
+  }
+  
+  #customerRegister .card {
+    background-color: rgba(126, 123, 215, 0.2);
+  }
+  
+  #customerRegister h6 {
+    line-height: 1.7;
+  }
+  
+  #customerRegister .navbar {
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  
+  #customerRegister .top-nav-collapse {
+    background: #424f95 !important;
+  }
+  
+  @media (max-width: 768px) {
+    #customerRegister .navbar:not(.top-nav-collapse) {
+      background: #424f95 !important;
+    }
+  }
+  
+  #customerRegister label {
+    color: #fff !important;
+  }
+
+#imgcard{
+ 
+            height: 15vw;
+            object-fit: cover
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
